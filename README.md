@@ -113,6 +113,7 @@ Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. C
    - Slide modules into slots.
    - Screw into standoffs/nut strips.
    - Connect to bus board.
+<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/e0f99562-bac1-4a00-9f2f-84c3c7e7b872" />
 
 8. **Final Checks**:
    - Verify power output and ripple (use multimeter).
