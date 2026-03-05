@@ -4,7 +4,7 @@
 
 FOSSkiff is a free and open-source (FOSS) CAD design for a modular Eurorack skiff case made primarily from laser-cut sheet metal (aluminum or steel). It eliminates traditional extruded aluminum rails by using nut strips and integrated structural bends for rigidity. The design supports 184HP in a 3U format (with 1U and 4U variants planned), internal power supply, conditioning, and expansion capabilities. Total build cost is approximately $150 using commodity parts and services like SendCutSend for fabrication.
 
-This repo contains CAD files (DXF for sheet metal parts, STL for 3D-printable endcaps, etc.) for fabrication. The design is modular, allowing daisy-chaining of additional "satellite" units for expansion.
+This repo contains CAD files (STEP) for fabrication. The design is modular, allowing daisy-chaining of additional "satellite" units for expansion.
 
 Inspired by re-examining Eurorack standards, this case prioritizes affordability, lightness, and simplicity while maintaining compatibility with standard modules.
 
@@ -25,13 +25,12 @@ Inspired by re-examining Eurorack standards, this case prioritizes affordability
 
 ## Bill of Materials (BOM)
 
-### Sheet Metal Parts (Laser-Cut)
-- Main chassis (from DXF files in `/cad/sheet_metal/`)
-- Face panel with slots
-- Nut strips (or use off-the-shelf; threading holes optional but increases cost)
+### Laser Cut Parts
+- Main chassis (Steel or aluminum)
+- Face panel with slots (Steel or aluminum)
 - Plexiglass bus board mounting plate (laser-cut acrylic)
 
-Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. Cost: ~$40-60 for core parts.
+Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. Cost: ~$40-60 for core parts. Their online reviewer will give you grief about bending offsets, just ignore those- there are some signs of minor stress but the paint convers them up quite well.
 
 ### Hardware
 - Mean Well RT-65B power supply (internal mounting).
@@ -55,18 +54,16 @@ Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. C
 ## Fabrication Instructions
 
 1. **Download CAD Files**:
-   - Sheet metal: Use DXF files for laser cutting.
-   - 3D parts: STL files for printing endcaps if desired.
-   - Customize bus board holes in plexiglass DXF if using a different board.
+   - You gotta do it to do it
 
 2. **Order Sheet Metal**:
-   - Upload DXF to a service like SendCutSend.
+   - Upload STEP to a service like SendCutSend.
    - Specify material: Aluminum for lightness, steel for durability.
    - Avoid integrated threading on nut strips to keep costs low (~$40 vs. $300).
    - Order plexiglass plate separately (acrylic sheet, laser-cut).
 
 3. **3D Print or Mill Endcaps**:
-   - Print STL files for temporary/prototype endcaps.
+   - Print endcap files for temporary/prototype endcaps.
    - For premium look, mill from hardwood (e.g., bloodwood) using provided outlines.
 
 4. **Surface Preparation and Painting**:
@@ -127,9 +124,6 @@ For additional units:
 
 ## License
 
-This project is released under Copyleft  (or your preferred FOSS license). See `LICENSE` file for details (there is not one).
-## Credits
-
-Design by @puhcko. Thanks to SendCutSend for fabrication inspiration (not sponsored).
+This project is released under MIT License.
 
 For questions or contributions, open an issue or PR on GitHub.*
