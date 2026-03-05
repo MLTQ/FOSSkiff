@@ -1,4 +1,5 @@
 # FOSSkiff: Open-Source Eurorack Skiff Case
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/b3cf7fbb-44ad-440d-8e2b-cae64d6ac962" />
 
 ## Overview
 
@@ -44,6 +45,7 @@ Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. C
 - USB power module.
 - RGB LED strip + Arduino controller for lighting.
 - Endcaps: Wood (e.g., bloodwood) or 3D-printed PLA/ABS. One one endcap is provided, if you need help here don't reach out.
+<img width="1290" height="1632" alt="image" src="https://github.com/user-attachments/assets/855319af-913e-4203-91de-5d692db88610" />
 
 ### Tools Needed
 - Screwdriver/bit driver.
@@ -87,6 +89,7 @@ Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. C
    - Place nut strips behind the face slots.
    - Secure with standoffs (screw modules into standoffs later).
    - Add 3 holes along top/bottom for backstops (standoffs) to tension the face and prevent deflection.
+<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/c0ee0a1f-a8bc-4bc0-b95c-36a96dfec723" />
 
 4. **Install Power System**:
    - Screw Mean Well RT-65B directly into the chassis.
@@ -94,6 +97,7 @@ Fabricate via services like SendCutSend. Material: 16-gauge aluminum or steel. C
    - Connect inductors, fuses, and plugs for ripple conditioning.
    - Wire USB power module.
    - Install 8-pin marine connector for future expansions (leave unconnected if single unit).
+<img width="2048" height="1536" alt="image" src="https://github.com/user-attachments/assets/4dec2ca3-825c-4659-81e6-14c5d085b11c" />
 
 5. **Mount Bus Board**:
    - Attach bus board to plexiglass plate.
